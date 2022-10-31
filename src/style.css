@@ -1,1 +1,12 @@
 /* styles go here */
+.field-item {
+  display: block;
+}
+
+.input {
+  margin-bottom: 10px;
+}
+
+.fieldset {
+  margin-bottom: 20px;
+}
