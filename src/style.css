@@ -1,12 +1,8 @@
-/* styles go here */
-.field-item {
-  display: block;
-}
-
-.input {
-  margin-bottom: 10px;
-}
-
-.fieldset {
+fieldset {
   margin-bottom: 20px;
+}
+
+.field-label:not(:last-child) {
+  display: block;
+  margin-bottom: 10px;
 }
