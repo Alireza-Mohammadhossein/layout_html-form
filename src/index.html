@@ -55,7 +55,6 @@
             type="date"
             name="birth"
             required
-            placeholder="mm/dd/yyyy"
           >
         </label>
 
@@ -98,22 +97,25 @@
 
       <fieldset>
         <legend>An interesting fact about you!</legend>
-
-        <label class="field-label">
+        <div class="field-label">
           Do you love cats?
-          <input
-            type="radio"
-            name="cats"
-            value="yes"
-          >
-          Yes
-          <input
-            type="radio"
-            name="cats"
-            value="no"
-          >
-          No
-        </label>
+          <label>
+            Yes
+            <input
+              type="radio"
+              name="cats"
+              value="yes"
+            >
+          </label>
+          <label>
+            No
+            <input
+              type="radio"
+              name="cats"
+              value="no"
+            >
+          </label>
+        </div>
 
         <label class="field-label">
           What is your favorite color?
